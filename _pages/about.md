@@ -10,7 +10,7 @@ redirect_from:
 
 Hello, my name is Minh. I am about to graduate from Aalto University 🇫🇮's BSc Data Science in summer 2024. I am intersted in generalizable deep learning, specifically for representing visual elements. [CV](https://drive.google.com/file/d/1svJMGTyAnIW9WxHHmrkLvD8Xp1qibf1k/view?usp=sharing){:target="_blank"}
 
-In this final year, I am on an exchange study to IC Department, EPFL (Switzerland) 🇨🇭. This exchange is selective, fully-funded, and involve research work. Learn more.
+In this final year, I am on an exchange study to IC Department, EPFL (Switzerland) 🇨🇭. This exchange is selective, fully-funded, and involve both course and research work. 
 
 Just before the exchange, I have dedicated a great of my time in Professor [Stephane Deny](https://sites.google.com/view/stephanedeny/home){:target="_blank"}'s BRAIN Lab. For more than 1 year as a **Research Assistant**, I have been researching about self-supervised learning and Invariant representation. Along with that I conducted **Bachelor Thesis** in Scene Representation with Professor [Alexander Ilin](https://users.aalto.fi/~alexilin/){:target="_blank"}, and **TA**-ed in advanced courses, e.g. hosting parts of lecture with Professor [Nitin Sawhney](https://www.aalto.fi/en/people/nitin-sawhney){:target="_blank"}, while still achieving great academic performance.
 
