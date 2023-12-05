@@ -34,6 +34,9 @@ Abstract:
 
 Semester Project @ IVLR -EPFL
 ------
+Topic: Deepfake Detection
+Supervisor: PhD Assistant Yufan Ren
+
 
 Teaching Exprience 
 ======
