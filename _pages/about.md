@@ -25,16 +25,16 @@ PI: Professor Stephane Deny
 
 Topic: Extrapolation outside their training domain
 ![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/model.png)
-Self-supervised model utilizing learnable VAE and operators for reverting distortion
+Self-supervised model utilizing learnable VAE and operators for reverting distortion.
 
 
-Extension to process Electromyography (EMG) signal
+Extension to process Electromyography (EMG) signal:
 ![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/modeEMG.png)
 
 
 Bachelor Thesis
 ------
-Title: Recent Advances in Scene Representation. PDF.
+Title: Recent Advances in Scene Representation. [PDF](https://drive.google.com/file/d/1wU3PXkTytN0deqhuS18uhzqzxmJK51FC/view?usp=sharing){:target="_blank"}. [Aalto Archive](https://urn.fi/URN:NBN:fi:aalto-202305303442){:target="_blank"}.
 
 Supervisor: Professor Alexander Ilin
 
