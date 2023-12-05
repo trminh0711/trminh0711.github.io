@@ -8,13 +8,16 @@ date: 2023-04-01
 location: "Espoo, Finland"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+I had the privilege of serving as the lead Teaching Assistant for the course CS-A1155 Databases for Data Science under the guidance of Professor Nitin Sawhney at the Aalto University Department of Computer Science. In this role, I played a crucial part in ensuring the success and improvement of the course.
 
-Heading 1
+Responsibilities 
 ======
+As the lead TA, my responsibilities included coordinating multiple teams to facilitate the seamless delivery of the course. This involved managing Aalto's online platforms, including A+, MyCourses, and a GitLab repository for efficient project distribution. Additionally, my team and I provided direct and timely support to over 100 students and 27 project groups through Slack.
 
-Heading 2
-======
+One significant enhancement we implemented was migrating from SQLite to the open-sourced and versatile PostgreSQL. Despite the challenges of developing and maintaining a remote database server, this transition aligned the course with industry practices. We also adapted the course structure to fit the post-pandemic era, incorporating large physical lectures and smaller hybrid exercise sessions.
 
-Heading 3
+Achievements
 ======
+Through collaborative efforts, we organized 17 tutorial sessions, created 5 comprehensive online exercise sheets, and designed a challenging 3-stage project package.
+
+
