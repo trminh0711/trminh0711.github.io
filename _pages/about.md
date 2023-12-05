@@ -14,7 +14,7 @@ In this final year, I am on an exchange study to IC Department, EPFL (Switzerlan
 
 Just before the exchange, I have dedicated a great of my time in Professor [Stephane Deny](https://sites.google.com/view/stephanedeny/home){:target="_blank"}'s BRAIN Lab. For more than 1 year as a Research Assistant, I have been researching about self-supervised learning and Invariant representation. Along with that I conducted Bachelor Thesis in Scene Representation with Professor [Alexander Ilin](https://users.aalto.fi/~alexilin/){:target="_blank"}, and TA-ed in advanced courses, e.g. hosting parts of lecture with Professor [Nitin Sawhney](https://www.aalto.fi/en/people/nitin-sawhney){:target="_blank"}, while still achieving great academic performance.
 
-Originally I come from Hanoi, Vietnam 🇻🇳 (I love Pho). There, I studied at [HNUE High School for Gifted Students](https://chuyensp.edu.vn/){:target="_blank"}, while developed  my passion in photograph 📸. Check [Portfolio](portfolio.html){: .btn } for my gorgeous photos 🏞️.
+Originally I come from Hanoi, Vietnam 🇻🇳 (I love Phở). There, I studied at [HNUE High School for Gifted Students](https://chuyensp.edu.vn/){:target="_blank"}, while developed  my passion in photograph 📸. Check [Portfolio](portfolio.html){: .btn } for my gorgeous photos 🏞️.
 
 Research Exprience
 ======
