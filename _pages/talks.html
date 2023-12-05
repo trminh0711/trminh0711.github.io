@@ -13,23 +13,28 @@ author_profile: true
   }
         .publication-container {
             display: flex;
-            width: auto;
+            width: 80%;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             overflow: hidden;
+            background-color: #f7f7f5;
         }
         .publication-container-big {
             display: flex;
             flex-direction: column; 
-            width: auto;
+            width: 80%;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             overflow: hidden;
+            background-color: #f7f7f5;
         }
         .image-container {
-            flex: 1;
-            height: auto;
             overflow: hidden;
+            max-height: 600px;
         }
 
         .image-container img {
-            width: 100%;
+            width: 80%;
             height: auto;
         }
 
@@ -50,21 +55,23 @@ author_profile: true
   <div class="publication-container-big">
     <div class="details-container">
     <h2>Project 1: Exploring Sanitation via Story telling visualization</h2>
-    <p> Interactive data Storytelling utilizing D3 and folium map, comprehensively covering
-      aspects of Usability, Time, and Space.</p>
+    
     </div>
     <div class="image-container">
     <iframe src="/files/Final Project/sanitation.html" id="scaled-iframe" width="1800" height="900" frameborder="0"></iframe>
   </div> 
+  <p> Interactive data Storytelling utilizing D3 and folium map, comprehensively covering
+    aspects of Usability, Time, and Space.</p>
   </div>
       <div class="publication-container">
-        <div class="image-container">
-            <!-- Replace the 'your-image-url.jpg' with the actual URL or path to your image -->
-            <img src="/images/economy.png" alt="Publication Image">
-        </div>
-        <div class="details-container">
+        
+        <div class="details-container-big">
             <h2>Understanding company risks in Finnish municipalities</h2>
             <p class="authors">S. Karhula, H. Nguyen, H. Phan, V. Tiainen, M. Dinh, A. V. Card ́o. Equal contribution</p>
+            <div class="image-container">
+              <!-- Replace the 'your-image-url.jpg' with the actual URL or path to your image -->
+              <img src="/images/economy.png" alt="Publication Image">
+          </div>
             <p>A cohesive tool that facilitates client's discovery of Finland's municipalities with financial risk and those with investment potentials by using time-series analysis and a proposed risk function. </p>
               <p> Delivered as a Dash application with interactive 2D and 3D visualisation.</p>
                 <p> Project by courtesy of course CS-C3250 Data Science Project and OP Bank. </p>
