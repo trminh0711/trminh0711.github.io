@@ -21,9 +21,9 @@ Research Exprience
 
 Research Assistant @ Aalto School of Computer Science 
 ------
-**PI**: Professor Stephane Deny 
-
-**Topic**: Extrapolation outside training domain
+* **PI**: Professor Stephane Deny
+* **Topic**: Extrapolation outside training domain
+* Funded by HIIT (Helsinki Institute for Information Technology) -- Grant for [Activity Funding](https://www.hiit.fi/funding/for-researchers/#:~:text=at%20Aalto%20University.-,Activity%20funding,-HIIT%20can%20provide), March 2023
 ![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/model.png)
 Self-supervised model utilizing learnable VAE and operators for reverting distortion.
 
@@ -36,16 +36,15 @@ Bachelor Thesis
 ------
 **Title**: Recent Advances in Scene Representation. [PDF](https://drive.google.com/file/d/1wU3PXkTytN0deqhuS18uhzqzxmJK51FC/view?usp=sharing){:target="_blank"}. [Aalto Archive](https://urn.fi/URN:NBN:fi:aalto-202305303442){:target="_blank"}.
 
-Supervisor: Professor Alexander Ilin
-
-Abstract: 
+* Supervisor: Professor Alexander Ilin
+* Abstract: 
 > [...] current models have limitations in generalizability, processing speed, and noise robustness, posing possibilities for further improvements in the future. This thesis, as a state-of-the-art review, offers a cohesive summary of recently proposed methodologies for representing and utilizing an understanding of 3D scenes from 2D observations, with a concentration on variants of two highly potential techniques: neural radiance field (NeRF) and scene representation transformer (SRT).
 
 Semester Project @ IVLR -EPFL
 ------
-**Topic**: Deepfake Detection.
+* **Topic**: Deepfake Detection.
 
-**Supervisor**: PhD Assistant Yufan Ren
+* **Supervisor**: PhD Assistant Yufan Ren
 
 
 
@@ -60,6 +59,13 @@ Check [Teaching](teaching.html){: .btn }
   * ELEC-A7151 Object oriented programming with C++ 
   * CS-C3240 Machine Learning D 
 
+
+Outreach 
+======
+
+* **Volunteer** @2022 IEEE International Symposium on Information Theory (ISIT)
+  * Active volunteer in all Plenary Sessions and in 5+ tutorial sessions.
+  * Prepared stage and assisted speakers for their presentation.
 
 <!-- While some project is archived on my Github account, most of them are available on Aalto's Gitlab. 
  [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
