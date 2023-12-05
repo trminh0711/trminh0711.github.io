@@ -8,17 +8,9 @@ date: 2022-09-01
 location: "Espoo, Finland"
 ---
 
-Main Responsibilities and Achievements:
 
-• Hosted in person and online tutorial sessions over Zoom and Microsoft Teams twice per week. 20% of students attended.
 
-• Delivered assistance over platforms Slack, Microsoft Teams, and Zulip, checking student’s coding snippets over Code Vault.
-
-• Responsible for course concept Deep Leaning and software projects Circuit Simulator, Traffic Simulator.
-
-• Assisted students with basic and intermediate usage of tools: Numpy, Pandas, scikit-learn, Jupyter Notebook, Visual Studio Code, Cmake, GitLab,....
-
-• Supervised 5 project groups, offered weekly meeting for progress update and assistance request
+Main Responsibilities and Achievements: Hosted in person and online tutorial sessions over Zoom and Microsoft Teams twice per week. 20% of students attended. Delivered assistance over platforms Slack, Microsoft Teams, and Zulip, checking student’s coding snippets over Code Vault. Responsible for course concept Deep Leaning and software projects Circuit Simulator, Traffic Simulator. Assisted students with basic and intermediate usage of tools: Numpy, Pandas, scikit-learn, Jupyter Notebook, Visual Studio Code, Cmake, GitLab,.... Supervised 5 project groups, offered weekly meeting for progress update and assistance request.
 
 [CS-E4800 Artificial Intelligence D](https://mycourses.aalto.fi/course/view.php?id=36689) (Spring 2023) - GRADUATE LEVEL course
 ======
