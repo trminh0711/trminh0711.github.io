@@ -11,16 +11,72 @@ author_profile: true
       transform-origin: 0 0;
       transform: scale(0.6); /* Adjust the scale factor as needed */
   }
+        .publication-container {
+            display: flex;
+            width: 80%;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            background-color: #f7f7f5;
+        }
+        .publication-container-big {
+            display: flex;
+            flex-direction: column; 
+            width: 80%;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            background-color: #f7f7f5;
+        }
+        .image-container {
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .details-container {
+            flex: 1;
+            padding: 20px;
+        }
+
+        h2, p {
+            margin: 0;
+        }
+
+        .authors {
+            font-style: italic;
+        }
 </style>
 <body>
-
-    <h2>Project 1: Exploring Sanitation via Story telling visualization</h1>
+  <div class="publication-container-big">
+    <div class="details-container">
+    <h2>Project 1: Exploring Sanitation via Story telling visualization</h2>
     <p> Interactive data Storytelling utilizing D3 and folium map, comprehensively covering
       aspects of Usability, Time, and Space.</p>
-
+    </div>
+    <div class="image-container"></div>
     <iframe src="/files/Final Project/sanitation.html" id="scaled-iframe" width="1800" height="900" frameborder="0"></iframe>
-
-    
+  </div>
+  </div>
+      <div class="publication-container">
+        <div class="image-container">
+            <!-- Replace the 'your-image-url.jpg' with the actual URL or path to your image -->
+            <img src="/images/economy.png" alt="Publication Image">
+        </div>
+        <div class="details-container">
+            <h2>Understanding company risks in Finnish municipalities</h2>
+            <p class="authors">S. Karhula, H. Nguyen, H. Phan, V. Tiainen, M. Dinh, A. V. Card ́o. Equal contribution</p>
+            <p>A cohesive tool that facilitates client's discovery of Finland's municipalities with financial risk and those with investment potentials by using time-series analysis and a proposed risk function. </p>
+              <p> Delivered as a Dash application with interactive 2D and 3D visualisation.</p>
+                <p> Project by courtesy of course CS-C3250 Data Science Project and OP Bank. </p>
+                <p> Tools used: Time-series prediction, Dash, Heroku </p>
+            <!-- Add more details as needed -->
+        </div>
+    </div>
 </body>
 </html>
 
