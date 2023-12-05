@@ -8,19 +8,32 @@ date: 2022-09-01
 location: "Espoo, Finland"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+• Hosted in person and online tutorial sessions over Zoom and Microsoft Teams twice per week. 20% of students attended.
+
+• Delivered assistance over platforms Slack, Microsoft Teams, and Zulip, checking student’s coding snippets over Code Vault.
+
+• Responsible for course concept Deep Leaning and software projects Circuit Simulator, Traffic Simulator.
+
+• Assisted students with basic and intermediate usage of tools: Numpy, Pandas, scikit-learn, Jupyter Notebook, Visual Studio Code, Cmake, GitLab,....
+
+• Supervised 5 project groups, offered weekly meeting for progress update and assistance request
 
 CS-E4800 Artificial Intelligence D (Spring 2023)
 ======
 • Hosted in person and online tutorial sessions over Zoom four times per week. 
+
 • Delivered assistance over platform Zulip, checking student’s coding snippets over Code Vault.
+
 • Assisted students with advanced usage of tools:  Jupyter Notebook, Visual Studio Code, GitLab,....
 
 CS-3240 Machine Learning D (Autumn 2022)
 ======
 • Hosted in person and online tutorial sessions over Zoom three times per week. 20% of students attended.
+
 • Delivered assistance over platforms Slack and Zulip, checking student’s coding snippets over Code Vault.
+
 • Responsible for course concept Deep Leaning.
+
 • Assisted students with basic and intermediate usage of tools: Numpy, Pandas, scikit-learn,
 Jupyter Notebook, Visual Studio Code, ....
 
