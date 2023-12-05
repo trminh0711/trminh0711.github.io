@@ -12,7 +12,7 @@ Hello, my name is Minh. I am about to graduate from Aalto University 🇫🇮's 
 
 In this final year, I am on an exchange study to IC Department, EPFL (Switzerland) 🇨🇭. This exchange is selective, fully-funded, and involve research work. Learn more.
 
-Just before the exchange, I have dedicated a great of my time in Professor [Stephane Deny](https://sites.google.com/view/stephanedeny/home){:target="_blank"}'s BRAIN Lab. For more than 1 year as a Research Assistant, I have been researching about self-supervised learning and Invariant representation. Along with that I conducted Bachelor Thesis in Scene Representation with Professor [Alexander Ilin](https://users.aalto.fi/~alexilin/){:target="_blank"}, and TA-ed in advanced courses, e.g. hosting parts of lecture with Professor [Nitin Sawhney](https://www.aalto.fi/en/people/nitin-sawhney){:target="_blank"}, while still achieving great academic performance.
+Just before the exchange, I have dedicated a great of my time in Professor [Stephane Deny](https://sites.google.com/view/stephanedeny/home){:target="_blank"}'s BRAIN Lab. For more than 1 year as a **Research Assistant**, I have been researching about self-supervised learning and Invariant representation. Along with that I conducted **Bachelor Thesis** in Scene Representation with Professor [Alexander Ilin](https://users.aalto.fi/~alexilin/){:target="_blank"}, and **TA**-ed in advanced courses, e.g. hosting parts of lecture with Professor [Nitin Sawhney](https://www.aalto.fi/en/people/nitin-sawhney){:target="_blank"}, while still achieving great academic performance.
 
 Originally I come from Hanoi, Vietnam 🇻🇳 (I love Phở). There, I studied at [HNUE High School for Gifted Students](https://chuyensp.edu.vn/){:target="_blank"}, while developed  my passion in photograph 📸. Check [Portfolio](portfolio.html){: .btn } for my gorgeous photos 🏞️.
 
@@ -21,9 +21,9 @@ Research Exprience
 
 Research Assistant @ Aalto School of Computer Science 
 ------
-PI: Professor Stephane Deny 
+**PI**: Professor Stephane Deny 
 
-Topic: Extrapolation outside their training domain
+**Topic**: Extrapolation outside training domain
 ![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/model.png)
 Self-supervised model utilizing learnable VAE and operators for reverting distortion.
 
@@ -34,7 +34,7 @@ Extension to process Electromyography (EMG) signal:
 
 Bachelor Thesis
 ------
-Title: Recent Advances in Scene Representation. [PDF](https://drive.google.com/file/d/1wU3PXkTytN0deqhuS18uhzqzxmJK51FC/view?usp=sharing){:target="_blank"}. [Aalto Archive](https://urn.fi/URN:NBN:fi:aalto-202305303442){:target="_blank"}.
+**Title**: Recent Advances in Scene Representation. [PDF](https://drive.google.com/file/d/1wU3PXkTytN0deqhuS18uhzqzxmJK51FC/view?usp=sharing){:target="_blank"}. [Aalto Archive](https://urn.fi/URN:NBN:fi:aalto-202305303442){:target="_blank"}.
 
 Supervisor: Professor Alexander Ilin
 
@@ -43,9 +43,9 @@ Abstract:
 
 Semester Project @ IVLR -EPFL
 ------
-Topic: Deepfake Detection
+**Topic**: Deepfake Detection
 
-Supervisor: PhD Assistant Yufan Ren
+**Supervisor**: PhD Assistant Yufan Ren
 
 
 
