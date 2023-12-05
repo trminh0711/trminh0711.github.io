@@ -30,7 +30,7 @@ Title: Recent Advances in Scene Representation
 Supervisor: Professor Alexander Ilin
 
 Abstract: 
-> [...] current models have limitations in generalizability, processing speed, and noise robustness, posing possibilities for further improvements in the future. This thesis, as a state-of-the-art review, offers a cohesive summary of recently proposed methodologies for representing and utilizing an understanding of 3D scenes from 2D observations, with a concentration on variants of two highly potential techniques: neural radiance field (NeRF) and scene representation transformer (SRT).[..]
+> [...] current models have limitations in generalizability, processing speed, and noise robustness, posing possibilities for further improvements in the future. This thesis, as a state-of-the-art review, offers a cohesive summary of recently proposed methodologies for representing and utilizing an understanding of 3D scenes from 2D observations, with a concentration on variants of two highly potential techniques: neural radiance field (NeRF) and scene representation transformer (SRT).
 
 Semester Project @ IVLR -EPFL
 ------
