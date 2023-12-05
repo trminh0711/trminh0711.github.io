@@ -4,6 +4,8 @@ title: "Coursework and Projects"
 permalink: /study/
 author_profile: true
 ---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 <style>
   #scaled-iframe {
 
@@ -13,7 +15,6 @@ author_profile: true
   }
         .publication-container {
             display: flex;
-            width: 80%;
             border: 1px solid #ccc;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             overflow: hidden;
@@ -22,7 +23,6 @@ author_profile: true
         .publication-container-big {
             display: flex;
             flex-direction: column; 
-            width: 80%;
             border: 1px solid #ccc;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             overflow: hidden;
@@ -50,33 +50,40 @@ author_profile: true
         .authors {
             font-style: italic;
         }
+        .tool-icon {
+            font-size: 20px;
+            margin-right: 5px;
+        }
 </style>
 <body>
   <div class="publication-container-big">
     <div class="details-container">
-    <h2>Project 1: Exploring Sanitation via Story telling visualization</h2>
+    <h2>Exploring Sanitation via Story telling visualization</h2>
     
-    </div>
     <div class="image-container">
     <iframe src="/files/Final Project/sanitation.html" id="scaled-iframe" width="1800" height="900" frameborder="0"></iframe>
-  </div> 
-  <p> Interactive data Storytelling utilizing D3 and folium map, comprehensively covering
+    </div> 
+    <p class="details-container"> Interactive data Storytelling utilizing D3 and folium map, comprehensively covering
     aspects of Usability, Time, and Space.</p>
   </div>
+</div>
       <div class="publication-container">
         
         <div class="details-container-big">
             <h2>Understanding company risks in Finnish municipalities</h2>
-            <p class="authors">S. Karhula, H. Nguyen, H. Phan, V. Tiainen, M. Dinh, A. V. Card ́o. Equal contribution</p>
+            <div></div>
+            <p> April 2023. <span class="authors"> S. Karhula, H. Nguyen, H. Phan, V. Tiainen, M. Dinh, A. V. Card ́o. Equal contribution </span> 
+              <i class="devicon-python-plain-wordmark colored tool-icon" ></i>
+
+          
+            </p>
             <div class="image-container">
-              <!-- Replace the 'your-image-url.jpg' with the actual URL or path to your image -->
               <img src="/images/economy.png" alt="Publication Image">
           </div>
-            <p>A cohesive tool that facilitates client's discovery of Finland's municipalities with financial risk and those with investment potentials by using time-series analysis and a proposed risk function. </p>
-              <p> Delivered as a Dash application with interactive 2D and 3D visualisation.</p>
+            <p class="details-container">A cohesive tool that facilitates client's discovery of Finland's municipalities with financial risk and those with investment potentials by using time-series analysis and a proposed risk function. </p>
+              <p class="details-container"> Delivered as a Dash application with interactive 2D and 3D visualisation.</p>
                 <p> Project by courtesy of course CS-C3250 Data Science Project and OP Bank. </p>
                 <p> Tools used: Time-series prediction, Dash, Heroku </p>
-            <!-- Add more details as needed -->
         </div>
     </div>
 </body>
