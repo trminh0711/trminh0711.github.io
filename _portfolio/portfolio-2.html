@@ -64,59 +64,31 @@ body {
 </div>
 
 <!-- Photo Grid -->
-<div class="row"id="imageGrid" > 
+<div class="row"> 
     <div class="column">
-      <img src="/images/portfolio/IMG_3238.jpg" style="width:100%">
-      <img src="/images/portfolio/IMG_4142.jpg" style="width:100%">
-      <img src="/images/portfolio/IMG_4172.jpg" style="width:100%">
-      <img src="/images/portfolio/IMG_4248.jpg" style="width:100%">
-      <img src="/images/portfolio/IMG_4596.jpeg" style="width:100%">
-      <img src="/images/portfolio/IMG_4620.jpeg" style="width:100%">
-    </div>
-    <div class="column" >
-      <img src="/images/portfolio/IMG_4757.jpg" style="width:100%">
-      <img src="/images/portfolio/IMG_4885.jpg" style="width:100%">
-      <img src="/images/portfolio/IMG_2123.jpg" style="width:100%">
-      <img src="/images/portfolio/IMG_2949.jpg" style="width:100%">
       <img src="/images/portfolio/IMG_4299.jpeg" style="width:100%">
-      <img src="/images/portfolio/IMG_4452.jpeg" style="width:100%">
-    </div>
-    <div class="column">
+      <img src="/images/portfolio/IMG_4757.jpg" style="width:100%">
+      <img src="/images/portfolio/IMG_4620.jpeg" style="width:100%">
       <img src="/images/portfolio/IMG_4984.jpeg" style="width:100%">
-      <img src="/images/portfolio/IMG_5119.jpeg" style="width:100%">
-      <img src="/images/portfolio/IMG_5158.jpeg" style="width:100%">
-      <img src="/images/portfolio/IMG_5253.jpeg" style="width:100%">
-      <img src="/images/portfolio/IMG_5380.JPG" style="width:100%">
-      <img src="/images/portfolio/IMG_6377.jpg" style="width:100%">
     </div>
     <div class="column">
-      <img src="/images/portfolio/IMG_6379.jpg" style="width:100%">
+      <img src="/images/portfolio/IMG_6377.jpg" style="width:100%">
       <img src="/images/portfolio/IMG_6527-Edit.jpg" style="width:100%">
-      <img src="/images/portfolio/IMG_6621.jpg" style="width:100%">
       <img src="/images/portfolio/IMG_7532.jpg" style="width:100%">
-      <img src="/images/portfolio/IMG_7811-Enhanced-NR.jpg" style="width:100%">
+    
+    </div>
+    <div class="column">
       <img src="/images/portfolio/IMG_7834-Enhanced-NR.jpg" style="width:100%">
+      <img src="/images/portfolio/IMG_6621.jpg" style="width:100%">
+      <img src="/images/portfolio/IMG_2123.jpg" style="width:100%">
+      <img src="/images/portfolio/IMG_4172.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="/images/portfolio/IMG_5158.jpeg" style="width:100%">
+      <img src="/images/portfolio/IMG_6379.jpg" style="width:100%">
+      <img src="/images/portfolio/IMG_4142.jpg" style="width:100%">
     </div>
   </div>
-  <script>
-    function shuffleImages(rowId) {
-      var row = document.getElementById(rowId);
-      var columns = row.getElementsByClassName('column');
-      
-      for (var i = 0; i < columns.length; i++) {
-        var column = columns[i];
-        for (var j = column.children.length; j >= 0; j--) {
-          column.appendChild(column.children[Math.random() * j | 0]);
-        }
-      }
-    }
-  
-    // Shuffle images in each row
-    shuffleImages('imageGrid');
-    shuffleImages('imageGrid');
-    shuffleImages('imageGrid');
-    shuffleImages('imageGrid');
-  </script>
   
 
 </body>
