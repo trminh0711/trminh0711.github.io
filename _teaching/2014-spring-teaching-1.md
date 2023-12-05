@@ -3,7 +3,7 @@ title: "Teaching Assitant"
 collection: teaching
 type: "Advanced courses"
 permalink: /teaching/ta
-venue: "Aalto University, School of Computer Science"
+venue: "Aalto University, School of Computer Science & Electrical Engineering"
 date: 2022-09-01
 location: "Espoo, Finland"
 ---
