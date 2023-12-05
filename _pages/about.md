@@ -28,8 +28,8 @@ Topic: Extrapolation outside their training domain
 Self-supervised model utilizing learnable VAE and operators for reverting distortion
 
 
-Variant to EMG signal
-![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/modelEMG.png)
+Extension to process EMG signal
+![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/modeEMG.png)
 
 
 Bachelor Thesis
