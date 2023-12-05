@@ -28,7 +28,7 @@ Research Assistant @ Aalto School of Computer Science
 Self-supervised model utilizing learnable VAE and operators for reverting distortion.
 
 
-Extension to process Electromyography (EMG) signal:
+Extension to process Electromyography (EMG) signal, offering a GUI for real-time EMG visualization and motion classification:
 ![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/modeEMG.png)
 
 
@@ -43,7 +43,7 @@ Abstract:
 
 Semester Project @ IVLR -EPFL
 ------
-**Topic**: Deepfake Detection
+**Topic**: Deepfake Detection.
 
 **Supervisor**: PhD Assistant Yufan Ren
 
