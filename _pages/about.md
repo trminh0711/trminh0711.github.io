@@ -23,6 +23,15 @@ Research Assistant @ Aalto School of Computer Science
 ------
 PI: Professor Stephane Deny 
 
+Topic: Extrapolation outside their training domain
+![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/model.png)
+Self-supervised model utilizing learnable VAE and operators for reverting distortion
+
+
+Variant to EMG signal
+![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/modelEMG.png)
+
+
 Bachelor Thesis
 ------
 Title: Recent Advances in Scene Representation
