@@ -8,7 +8,6 @@ date: 2022-09-01
 location: "Espoo, Finland"
 ---
 
-Introduction to Teaching Assistant Role
 In my role as a Teaching Assistant, I embraced a diverse set of responsibilities that encompassed both in-person and online interactions. 
 
 Main Responsibilities and Achievements:
@@ -22,12 +21,12 @@ Main Responsibilities and Achievements:
 * Assisted students with basic and intermediate usage of tools: Numpy, Pandas, scikit-learn, Jupyter Notebook, Visual Studio Code, Cmake, GitLab,.... 
  * Supervised 5 project groups, offered weekly meeting for progress update and assistance request.
 
-[CS-E4800 Artificial Intelligence D](https://mycourses.aalto.fi/course/view.php?id=36689) (Spring 2023) - GRADUATE LEVEL course
+[CS-E4800 Artificial Intelligence D](https://mycourses.aalto.fi/course/view.php?id=36689#:~:text=HN-,MD,-13) (Spring 2023) - GRADUATE LEVEL course
 ======
 This course gives a broad introduction to several core areas of Artificial Intelligence. The focus is on what could be characterized as high-level cognitive functions of intelligent systems: thinking/reasoning, problem-solving, decision-making and planning. These functionalities are central for any intelligent person, creature or device, and shows up in most of the important A.I. applications.
 
 
-[CS-3240 Machine Learning D](https://mycourses.aalto.fi/course/view.php?id=37071) (Autumn 2022) - Advanced course
+[CS-3240 Machine Learning D](https://mycourses.aalto.fi/course/view.php?id=37071#:~:text=Binh%20Nguyen%2C-,Ming%20Dinhtrong,-%2C%20Khanh%20Ha%2C%20Long) (Autumn 2022) - Advanced course
 ======
 Contents:
 
@@ -44,7 +43,7 @@ Contents:
 - Reinforcement learning.
 
 
-[ELEC-A7151 Object oriented programming with C++](https://mycourses.aalto.fi/course/view.php?id=37295) (Autumn 2022) - Undergraduate course
+[ELEC-A7151 Object oriented programming with C++](https://mycourses.aalto.fi/course/view.php?id=37295#:~:text=8.15%2D10.00%0ADuong-,Minh,-10.15%2D12.00%0ADuong) (Autumn 2022) - Undergraduate course
 ======
 This course is organized as a basic course in the C++ programming language. Its purpose is not to present you all the details of the language as a complete reference would do, but rather to summarize the basic syntax and features. Accordingly, the course content is divided into the following parts.
 
