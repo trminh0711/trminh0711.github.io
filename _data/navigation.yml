@@ -4,7 +4,7 @@ main:
     url: /research/
 
   - title: "Study"
-  url: /study/    
+    url: /study/    
 
   - title: "Teaching"
     url: /teaching/    
