@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanitation - Life Expectancy Correlation</title>
+    <style>
+      body {
+        height: 300vh;
+    
+          background-color: #fffffc;
+        
+      }
+      #nbr {
+        margin-left: 300px;
+        font-size: 124px;
+        display: inline-block;
+        font-family:Helvetica, sans-serif;
+        font-weight: 700;
+      }
+      #nbr1 {
+        font-size: 124px;
+        display: inline-block;
+        font-family: Helvetica, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 700;
+      }
+      #nbr2 {
+        font-size: 124px;
+        display: inline-block;
+        font-family: Helvetica, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 700;
+      }
+      #intro {
+        width:100%;
+        font-size: 42px;
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 100px;
+      }
+    
+      #intro1::first-letter {
+        font-size: 100px;
+        font-weight: 900;
+        line-height: 0.8;
+        /* margin-top: 10px; */
+        padding: 6px 3px;
+        margin-right: 6px;
+        float: left;
+      }
+      #lane {
+        margin-top: 10vh;
+        display: inline-block;
+      }
+      #sticky {
+        margin-top: 15vh;
+        margin-left: 5vh;
+        position: sticky;
+        top: 20px;
+      }
+      .par {
+        margin: 25vw 5vw 35vw 65vw;
+    width: 25vw;
+    height: 30vw;
+    z-index: 999;
+    font-size: 30px;
+      }
+      #start {
+        margin-top: -650px;
+      }
+
+    </style>
+  </head>
+  <body>
+  </div>
+    <div id="intro">
+      <p id="intro1" style="width: 50%; height: 100px; float: left;" >
+        In 2015, the world's average life expectancy is 71.89. Good health in the rich countries and persistently bad health in those countries that remained poor. Over the last decades this global inequality decreased. No country in the world has a lower life expectancy than the countries with the highest life expectancy in 1800. Many countries that not long ago were suffering from bad health are catching up rapidly.
+      </p>
+      <p id="nbr" style=" height: 100px;">71</p>
+      <p id="nbr2" style="height: 100px;">.</p>
+      <p id="nbr1" style="height: 100px;">89</p> </div>
+    </div>
+    
+    <br />
+    <div id="lane" style="font-family: Arial, Helvetica, sans-serif, Cochin, Georgia, Times, 'Times New Roman', sans-serif;">
+      <svg width="1200" height="1000" id="sticky"></svg>
+      <p id="start" class="par" >
+        Life expectancy has increased rapidly since the Age of Enlightenment. In the early 19th century, life expectancy started to increase in the early industrialized countries while it stayed low in the rest of the world. This led to a very high inequality in how health was distributed across the world. 
+        <br>
+        <br>
+
+        <label for="high">High Income Countries</label>
+         <input type="radio" name="hideshow" value="high">
+         <br>
+         <label for="medium">Medium Income Countries</label>
+        <input type="radio" name="hideshow" value="medium">
+        <br>
+        <label for="low">Low Income Countries</label>
+        <input type="radio" name="hideshow" value="low">
+        <br>
+        <br>
+        <label for="all">Show all</label>
+        <input type="radio" name="hideshow" value="all">
+        
+      <br>
+      <br>
+      </p>
+
+      <p id="step1" class="par">
+        In 2015, 74 over 214 countries in the world recorded lower than average sanitation percentage. Noteworthy is that it accounts for 45.8% of the world population. I.e, almost half the world is receiving under-averge sanitation.
+      </p>
+      <p id="step2" class="par">
+        Let's see the specific sanitation percentage with regard to life expectancy in the corresponding country. And also the income level (low - medium - high).
+      </p>
+      <p id="step3" class="par">
+        Looking at this histogram, we can see that most of the countries whose life expectancy under 60 have low sanitation level; meanwhile, ones whose 70 or higher have high sanitation level.
+      </p>
+    </div>
+
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+      var speed = 10;
+
+      function incEltNbr(id) {
+        elt = document.getElementById(id);
+        endNbr = Number(document.getElementById(id).innerHTML);
+        incNbrRec(55, endNbr, elt);
+      }
+      function incNbrRec(i, endNbr, elt) {
+        if (i <= endNbr) {
+          elt.innerHTML = i;
+          setTimeout(function() {//Delay a bit before calling the function again.
+            incNbrRec(i + 1, endNbr, elt);
+          }, speed);
+        }
+      }
+
+      incEltNbr("nbr");
+      incEltNbr("nbr1");
+
+      var pickColor = function(row) {
+        if (row.sanitation < 20) {
+            return "#c2d7f0"
+        }
+        else if (row.sanitation < 40) {
+            return "#99bfe8"
+        }
+        else if (row.sanitation < 60) {
+            return "#74a9cf"
+        }
+        else if (row.sanitation < 80) {
+            return "#2b8cbe"
+        }
+        else {
+            return "#045a8d"
+        }
+    }
+
+    var sqrtScale = d3.scaleSqrt()
+                        .domain([812, 1440000000])
+                        .range([5, 50]);
+                
+    var xScale = d3.scaleLinear().domain([7.49, 100]).range([3,800])
+    var binScale = d3.scaleLinear().domain([50, 85]).range([3,800])
+    var yScale = d3.scaleLinear().domain([45, 85]).range([600,3])
+    var rankScale = d3.scaleLinear().domain([1, 180]).range([3,600])
+    var lEScale = d3.scaleLinear().domain([45, 90]).range([3,800])
+
+   d3.csv("./population_total.csv").then(function(data){
+    data = data.map(function(row){
+        row.color = pickColor(row)
+        row.r = sqrtScale(parseFloat(row["value"])) * 2
+        row.cy = yScale(parseFloat(row["life expectancy"]))
+        row.cx = xScale(parseFloat(row["sanitation"]))
+        row.ccx = lEScale(parseFloat(row["life expectancy"]))
+        row.ccy = rankScale(parseFloat(row.rank))
+        console.log(row)
+        return row;
+    })
+
+
+     var pack = d3.packSiblings(data);
+
+
+      var canvas = d3.select("svg");
+
+      var defs = canvas.append("defs");
+      var filter = defs.append("filter")
+          .attr("id", "drop-shadow")
+          .attr("height", "120%");
+      
+      filter.append("feGaussianBlur")
+          .attr("in", "SourceAlpha")
+          .attr("stdDeviation", 2)
+          .attr("result", "blur");
+      filter.append("feOffset")
+          .attr("in", "blur")
+          .attr("dx", 3)
+          .attr("dy", 3)
+          .attr("result", "offsetBlur");
+
+      var feMerge = filter.append("feMerge");
+      var r = 10
+      feMerge.append("feMergeNode")
+          .attr("in", "offsetBlur")
+      feMerge.append("feMergeNode")
+          .attr("in", "SourceGraphic");
+      d3.selectAll('input').data(data).on("change",function(e,d) {
+        console.log(this.value)
+				if(this.value == "high"){
+          d3.selectAll('circle').transition()
+          .duration('50')
+          .attr('opacity', function (d){
+            if (21000 > d.income) {
+              return '0'
+            }
+            else {
+              return '1'
+            }
+            })}
+         else if (this.value == "low"){
+          d3.selectAll('circle').transition()
+          .duration('50')
+          .attr('opacity', function (d){
+            if ( d.income > 10500 ) {
+              return '0'
+            }
+            else {
+              return '1'
+            }
+            })
+				}
+        else if (this.value == "medium") {
+        d3.selectAll('circle').transition()
+          .duration('50')
+          .attr('opacity', function (d){
+            if (21000 >= d.income && d.income >= 10500) {
+              return '1'
+            }
+            else {
+              return '0'
+            }})
+      }
+        else if (this.value == "all"){
+          d3.selectAll('circle').transition()
+            .duration('50')
+            .attr('opacity', '1')
+        }})	
+
+      canvas
+        .selectAll("circle")
+        .data(data)
+        .enter()
+        .append("circle")
+        .attr("cx", function (d) {
+          return d.ccx;
+        })
+        .attr("r", 10)
+        .attr("cy", 600)
+
+        .style("fill",function(d) { return d.color; })
+        .on('mouseover', function (e, d) {
+          d3.select(this).transition()
+               .duration('50')
+               .attr('r', function (e, d){
+                 if (lock1 == true) {
+                   return d3.select(this).attr("r")
+                 } else {
+                   return r*3
+                 }}
+               )
+               .attr('r', function (e, d){
+                 if (lock1 == true) {
+                   return d3.select(this).attr("r")
+                 } else {
+                   return r*3
+                 }}
+               )
+               .attr('opacity', '.85');
+               var country = d.country.substring(0,12)
+               var population = "Population: " + d.population
+               var lifeExpectancy = "Life expectancy: " + d["life expectancy"]
+               var x = d3.select(this).attr("cx")
+               var y = d3.select(this).attr("cy")
+               canvas.append("rect")
+               .classed("label", true)
+               .attr("class", "class2")
+               .attr("rx", 6)
+               .attr("ry", 6)
+               .attr("x", x+95)
+               .attr("y",  y-105)
+               .attr("width", 200)
+               .attr('opacity', '.65')
+               .attr("height", 80)
+               .style("filter", "url(#drop-shadow)")
+               .style("fill", "white");
+               canvas.append("text")
+                    .classed("label", true)
+                    .attr("class", "class2")
+                    .attr("x",x+85)
+                    .attr("y", y-80)
+                    .text(country)
+                    .style("fill","black")
+                    .attr("font-weight",700)
+                    .style("font-size", "25")
+                    .style("font-family", "Helvetica")
+                canvas.append("text")
+                    .classed("label", true)
+                    .attr("class", "class2")
+                    .attr("x",x+85)
+                    .attr("y", y-55)
+                    .text(population)
+                    .style("fill","black")
+                    .style("font-family", "Helvetica")
+                canvas.append("text")
+                    .classed("label", true)
+                    .attr("class", "class2")
+                    .attr("x",x+85)
+                    .attr("y", y-35)
+                    .text(lifeExpectancy)
+                    .style("fill","black")
+                    .style("font-family", "Helvetica")
+
+            
+
+           })
+      .on('mouseout', function (d, i) {
+      d3.select(this).transition()
+
+              .duration('50')
+              .attr('opacity', '1')
+              .attr('r', function (e, d){
+                if (lock1 == true) {
+                  return d3.select(this).attr("r")
+                } else {
+                  return r
+                }}
+              )              
+              canvas.selectAll(".class2").remove()
+      
+      })
+      
+
+      var lockStart = false,
+        lock1 = false,
+        lock2 = false,
+        lock3 = false;
+      
+      var step1 = document.getElementById("step1");
+      var step2 = document.getElementById("step2");
+      var step3 = document.getElementById("step3");
+      var start = document.getElementById("start");
+      document.addEventListener("scroll", () => {
+        console.log(step1.getBoundingClientRect().y);        
+          if (
+          window.innerHeight - 300 >= start.getBoundingClientRect().y &&
+          start.getBoundingClientRect().y > 0 &&
+          !lockStart
+        ) {
+          r =7
+          lockStart = true;
+
+          canvas.selectAll(".class1").remove()
+          var axis = canvas.append("g")
+          .attr("transform", "translate(130, 850)")
+          .classed("label", true)
+          .attr("class", "class1")
+
+          var xAxis = axis.append("g")
+          .call(d3.axisBottom(lEScale))
+
+          canvas
+          .selectAll("circle")
+          .transition().duration(1000)
+          .attr("cx", function (d) {
+            return d.ccx+100;
+          })
+          .style("stroke-width", 2)    // set the stroke width
+          .style("stroke", "#8cabbd")
+          .attr("r", 7)
+          .attr("cy", function (d) {
+            return d.ccy+200;
+          })
+          .style("fill",function(d) { return d.color; })
+          .attr('opacity','1')         
+            
+          lock3 = false;
+          lock2 = false;
+          lock1 = false;
+        }
+
+        if (
+          window.innerHeight - 300 >= step1.getBoundingClientRect().y &&
+          step1.getBoundingClientRect().y > 0 &&
+          !lock1
+        ) {
+          lock1 = true;
+          canvas.selectAll(".class1").remove()
+          canvas
+        .selectAll("circle")
+        .transition().duration(1000)
+        .attr("cx", function (d) {
+          return d.x + 600;
+        })
+        .attr("r", function (d) {
+          return d.r;
+        })
+        .attr("cy", function (d) {
+          return d.y+500;
+        })
+        .style("fill",function(d) { return d.color; })
+        .attr('opacity','1')
+   // set the stroke width
+        .style("stroke", "none")
+
+          lock3 = false
+          lock2 = false;
+          lockStart = false;
+        }
+
+        if (
+          window.innerHeight - 300 >= step2.getBoundingClientRect().y &&
+          step2.getBoundingClientRect().y > 0 &&
+          !lock2
+        ) {
+          r =10
+          lock2 = true;
+          canvas.selectAll(".class1").remove()
+          
+          var axis = canvas.append("g")
+          .attr("transform", "translate(200, 820)")
+          .classed("label", true)
+          .attr("class", "class1")
+      
+          var xAxis = axis.append("g")
+              .call(d3.axisBottom(xScale))
+              
+          var yAxis = axis.append("g")
+          .attr("transform", "translate(-20,-620)")
+          .call(d3.axisLeft(yScale))
+          canvas
+            .selectAll("circle")
+            .transition().duration(600)
+            .attr("cx", function (d) {
+              return d.cx+200;
+            })
+            .attr("cy", function (d) {
+              
+              return d.cy +200;
+            })
+            .style("stroke-width", 2)    // set the stroke width
+            .style("stroke", "#689c8f")
+            .attr("r", 10)
+            .attr('opacity','1')
+            .style("fill", function(d) {
+            if (d.income < 10500) {
+                return "#e5f5f9";
+            }
+            else if (d.income > 21000) {
+                return "#2ca25f";
+            }
+            else {
+                return "#99d8c9"
+            }
+        });
+          lock3 = false
+          lock1 = false;
+          lockStart = false;
+        }
+        if (
+          window.innerHeight - 300 >= step3.getBoundingClientRect().y &&
+          step3.getBoundingClientRect().y > 0 &&
+          !lock3
+        ) {
+          r =5 
+          lock3 = true;
+          canvas.selectAll(".class1").remove()
+          var axis = canvas.append("g")
+          .attr("transform", "translate(200, 750)")
+          .classed("label", true)
+          .attr("class", "class1")
+
+          var xAxis = axis.append("g")
+          .call(d3.axisBottom(binScale))
+          canvas
+          .selectAll("circle")
+          .transition().duration(600)
+          .style("stroke", "none")
+
+          .attr("cx", function (d) {
+            return parseFloat(d.bin)*22.3-900;
+          })
+          .attr("cy", function (d) {
+            
+            return 700 - parseFloat(d["rank bin"])*10;
+          })
+
+          .attr("r", 5)
+          .attr('opacity','1')
+          .style("fill", function(d) {return d.color})
+          .style("stroke-width", 0.5)    // set the stroke width
+          .style("stroke", "#8cabbd")
+          
+          lock2 = false
+          lock1 = false;
+          lockStart = false;
+        }
+      });})
+    </script>
+  </body>
+</html>
