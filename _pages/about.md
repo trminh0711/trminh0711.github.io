@@ -23,7 +23,7 @@ Research Assistant @ Aalto School of Computer Science
 ------
 * **PI**: Professor Stephane Deny
 * **Topic**: Extrapolation outside training domain
-* Funded by HIIT (Helsinki Institute for Information Technology) -- Grant for [Activity Funding](https://www.hiit.fi/funding/for-researchers/#:~:text=at%20Aalto%20University.-,Activity%20funding,-HIIT%20can%20provide), March 2023
+* **Funding**: Grant for [Activity Funding](https://www.hiit.fi/funding/for-researchers/#:~:text=at%20Aalto%20University.-,Activity%20funding,-HIIT%20can%20provide), March 2023
 ![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/model.png)
 Self-supervised model utilizing learnable VAE and operators for reverting distortion.
 
@@ -39,6 +39,9 @@ Bachelor Thesis
 * Supervisor: Professor Alexander Ilin
 * Abstract: 
 > [...] current models have limitations in generalizability, processing speed, and noise robustness, posing possibilities for further improvements in the future. This thesis, as a state-of-the-art review, offers a cohesive summary of recently proposed methodologies for representing and utilizing an understanding of 3D scenes from 2D observations, with a concentration on variants of two highly potential techniques: neural radiance field (NeRF) and scene representation transformer (SRT).
+![General pipeline for training a scene representation](/images/pipeline.png)
+**General pipeline for training a scene representation**. An encoding model processes input views to obtain a scene representation, which is then used for rendering a predicted view at a target pose. The reconstruction loss between the predicted and ground-truth views is employed for backpropagation to optimize the module parameters.
+
 
 Semester Project @ IVLR -EPFL
 ------
