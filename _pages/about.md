@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, my name is Minh. I am about to graduate from Aalto University 🇫🇮's BSc Data Science in summer 2024. I am intersted in generalizable deep learning, specifically for representing visual elements. [CV](https://drive.google.com/file/d/1svJMGTyAnIW9WxHHmrkLvD8Xp1qibf1k/view?usp=sharing){:target="_blank"}
+Hello, my name is Minh. I am about to graduate from Aalto University 🇫🇮's BSc Data Science in summer 2024. I am intersted in generalizable deep learning, specifically for representing visual elements. [[CV]](https://drive.google.com/file/d/1svJMGTyAnIW9WxHHmrkLvD8Xp1qibf1k/view?usp=sharing){:target="_blank"}
 
 In this final year, I am on an exchange study to IC Department, EPFL (Switzerland) 🇨🇭. This exchange is selective, fully-funded, and involve both course and research work. 
 
@@ -24,6 +24,7 @@ Research Assistant @ Aalto School of Computer Science
 * **PI**: Professor Stephane Deny
 * **Topic**: Extrapolation outside training domain
 * **Funding**: Grant for [Activity Funding](https://www.hiit.fi/funding/for-researchers/#:~:text=at%20Aalto%20University.-,Activity%20funding,-HIIT%20can%20provide), March 2023
+
 ![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/model.png)
 Self-supervised model utilizing learnable VAE and operators for reverting distortion.
 
