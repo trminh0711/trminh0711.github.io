@@ -17,48 +17,16 @@ In the final year, I am on a exchange study to the IC Department, EPFL (Switzerl
 
 Originally I come from Hanoi, Vietnam 🇻🇳. There, I studied at [HNUE High School for Gifted Students](https://chuyensp.edu.vn/){:target="_blank"}, while developed  my passion in photograph 📸. Check [Portfolio](portfolio.html){: .btn } for my gorgeous photos 🏞️.
 
-Research Exprience
+
+
+Research Exprience 
 ======
+Check [Research](publications.md){: .btn }
 
-
-
-Research Assistant @ Dartmouth College
------
-* **PI**: Professor SouYoung Jin
-
-
-
-Research Assistant @ Aalto School of Computer Science 
-------
-* **PI**: Professor Stephane Deny
-* **Topic**: Extrapolation outside training domain
-* **Funding**: Grant for [Activity Funding](https://www.hiit.fi/funding/for-researchers/#:~:text=at%20Aalto%20University.-,Activity%20funding,-HIIT%20can%20provide), March 2023
-
-![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/model.png)
-Self-supervised model utilizing learnable VAE and operators for reverting distortion.
-
-
-Extension to process Electromyography (EMG) signal, offering a GUI for real-time EMG visualization and motion classification:
-![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/modeEMG.png)
-
-
-Bachelor Thesis
-------
-**Title**: Recent Advances in Scene Representation. [PDF](https://drive.google.com/file/d/1wU3PXkTytN0deqhuS18uhzqzxmJK51FC/view?usp=sharing){:target="_blank"}. [Aalto Archive](https://urn.fi/URN:NBN:fi:aalto-202305303442){:target="_blank"}.
-
-* Supervisor: Professor Alexander Ilin
-* Abstract: 
-> [...] current models have limitations in generalizability, processing speed, and noise robustness, posing possibilities for further improvements in the future. This thesis, as a state-of-the-art review, offers a cohesive summary of recently proposed methodologies for representing and utilizing an understanding of 3D scenes from 2D observations, with a concentration on variants of two highly potential techniques: neural radiance field (NeRF) and scene representation transformer (SRT).
-![General pipeline for training a scene representation](/images/pipeline.png)
-**General pipeline for training a scene representation**. An encoding model processes input views to obtain a scene representation, which is then used for rendering a predicted view at a target pose. The reconstruction loss between the predicted and ground-truth views is employed for backpropagation to optimize the module parameters.
-
-
-Semester Project @ IVLR -EPFL
-------
-* **Topic**: Deepfake Detection.
-
-* **Supervisor**: PhD Assistant Yufan Ren
-
+I’m broadly interested in making AI systems more efficient, generalizable, and responsible.
+* Dartmouth College (2024–): Privacy-preserving dataset design for video and multimodal models
+* Aalto University BRAIN Lab (2022–2023): Invariant self-supervised representation learning
+* EPFL IVRL (2023): Visual forensics and synthetic image detection
 
 
 Teaching Exprience 
