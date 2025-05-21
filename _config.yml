@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Minh Dinh Trong"
-  avatar           : "round_portrait.jpg"
+  avatar           : "round_portrait_flip.jpg"
   bio              : "MS Computer Science @ Dartmouth"
   location         : "Hanover, NH 🇺🇸"
   employer         :
