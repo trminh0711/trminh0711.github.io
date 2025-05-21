@@ -13,7 +13,7 @@ At Dartmouth, my research focuses on privacy-preserving techniques for training 
 
 ## Representation Learning
 
-As a research assistant at Aalto University’s BRAIN Lab{:target="_blank"} under Prof. Stéphane Deny, I investigated self-supervised learning and invariance in biological and artificial vision systems. I contributed to projects exploring feature disentanglement, local equivariance, and learning from natural scenes without labels.
+As a research assistant at Aalto University’s BRAIN Lab under Prof. [Stephane Deny](https://sites.google.com/view/stephanedeny/home){:target="_blank"}, I investigated self-supervised learning and invariance in biological and artificial vision systems. I contributed to projects exploring feature disentanglement, local equivariance, and learning from natural scenes without labels.
 
 ![Self-supervised model utilizing learnable VAE and operators for reverting distortion](/images/model.png)
 Self-supervised model utilizing learnable VAE and operators for reverting distortion.
@@ -27,7 +27,7 @@ Extension to process Electromyography (EMG) signal, offering a GUI for real-time
 
 
 ## Scene Representation
-My Bachelor's thesis, supervised by Prof. Alexander Ilin{:target="_blank"}, focused on scene representation using neural fields. I implemented object-centric architectures to encode spatial and structural information from 2D observations, contributing to ongoing research in compositional generalization.
+My Bachelor's thesis, supervised by Prof. Alexander Ilin, focused on scene representation using neural fields. I implemented object-centric architectures to encode spatial and structural information from 2D observations, contributing to ongoing research in compositional generalization.
 
 **Title**: Recent Advances in Scene Representation. [PDF](https://drive.google.com/file/d/1wU3PXkTytN0deqhuS18uhzqzxmJK51FC/view?usp=sharing){:target="_blank"}. [Aalto Archive (with credentials)](https://urn.fi/URN:NBN:fi:aalto-202305303442){:target="_blank"}.
 

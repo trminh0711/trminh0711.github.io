@@ -75,7 +75,18 @@ author_profile: true
         <i class="devicon-r-plain colored tool-icon" ></i>
       </p>
 
-      <p >Different approaches of Bayesian models, both linear and non-linear, with various prior choices. Best-performed model gives prediction with lower RMSE than frequentist method.</p>
+     <p>
+  Collected over 4,800 real estate transactions from Finland's national housing registry by building a custom Python scraper from 
+  <a href="https://asuntojen.hintatiedot.fi/" target="_blank">asuntojen.hintatiedot.fi</a> to tackle the lack of public API. 
+  Performed extensive feature engineering (e.g., floor ratio, age approximation, one-hot encodings) and trained multiple Bayesian models using BRMS: 
+  pooled regression, two hierarchical models (region and sub-region), and a spline-based model.
+</p>
+<ul>
+  <li>Conducted prior sensitivity analysis and diagnostics (R̂, ESS, divergences) across model variants.</li>
+  <li>The spline model achieved the best predictive accuracy (MAD = €56.7k) and the lowest LOO-CV elpd loss, outperforming frequentist baselines by ~20% in RMSE.</li>
+  <li>Identified price distortions in low-data regions and modeled predictive uncertainty via posterior predictive checks and regional breakdowns.</li>
+</ul>
+
   </div>
 </div>
 
@@ -90,7 +101,8 @@ author_profile: true
         <i class="devicon-jupyter-plain-wordmark colored tool-icon" ></i>
       </p>
 
-      <p >A deep leaning framework applicable for foreign language learners in detecting pronounciation mistakes.</p>
+      <p >A deep leaning framework applicable for foreign language learners in detecting pronounciation mistakes. Fine-tuned a self-supervised Wav2Vec2 model on accented speech data to detect word-level pronunciation errors. Used trellis-based forced alignment and threshold-based classification to evaluate precision, recall, and F1 performance for foreign-language learning support.
+</p>
   </div>
 </div>
 
@@ -138,7 +150,7 @@ author_profile: true
         
       <div class="details-container">
           <h2>Data Dashboard and Interactive Visualisation</h2>
-          <p> Feb–May 2022. <span class="authors">Personal Project</span>, within course CS-C2120 - Programming studio A</p>
+          <p> Feb-May 2022. <span class="authors">Personal Project</span>, within course CS-C2120 - Programming studio A</p>
 
           <p>   
             <i class="devicon-scala-plain-wordmark colored tool-icon" ></i>
@@ -147,7 +159,9 @@ author_profile: true
           <div class="image-container">
             <img src="/images/home.png" alt="Publication Image">
         </div>
-          <p >A Scala application for illustrating data interactively from online sources. </p>
+          <p > A Scala application that visualizes data interactively from online sources via a JavaFX-based GUI.
+    The system integrates real-time data pipelines from REST APIs and CSV files, supporting variable selection and interactive annotation.
+ </p>
       </div>
   </div>
 
@@ -155,7 +169,7 @@ author_profile: true
         
     <div class="details-container">
         <h2>Using Logistic Regression for Prediction of Housing Affordability</h2>
-        <p> Jan–Feb 2022. <span class="authors">Personal Project</span>, within course CS-C3240 - Machine Learning D</p>
+        <p> Jan-Feb 2022. <span class="authors">Personal Project</span>, within course CS-C3240 - Machine Learning D</p>
 
         <p>   
           <i class="devicon-jupyter-plain-wordmark colored tool-icon" ></i>
@@ -163,7 +177,15 @@ author_profile: true
 
         </p>
        
-        <p >Machine Learning project for suggestion of reasonably-priced real estate units. </p>
+        <p >Created a binary classification model to identify "affordable" real estate units based on location, size, and historical pricing.
+
+          <ul>
+            <li>Defined affordability criteria using price-per-area thresholds adapted to local income levels.</li>
+            <li>Engineered features from scraped housing listings, including geospatial variables and inferred amenities.</li>
+            <li>Trained and evaluated logistic regression with L1/L2 regularization.</li>
+            <li> Demonstrated interpretability of learned weights and proposed use in public-facing housing search platforms</li>
+          </ul>
+  </p>
     </div>
 </div>
 </body>
