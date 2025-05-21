@@ -8,16 +8,27 @@ redirect_from:
   - /about.html
 ---
 
-Hello, my name is Minh. I am about to graduate from Aalto University 🇫🇮's BSc Data Science in summer 2024. I am intersted in generalizable deep learning, specifically for representing visual elements. [[CV]](https://drive.google.com/file/d/1svJMGTyAnIW9WxHHmrkLvD8Xp1qibf1k/view?usp=sharing){:target="_blank"}
+Hello, my name is Minh.
 
-In this final year, I am on an exchange study to IC Department, EPFL (Switzerland) 🇨🇭. This exchange is selective, fully-funded, and involve both course and research work. 
+I’m a graduate student in Computer Science at Dartmouth College 🇺🇸, where I focus on generalizable AI systems, multimodal learning, and data-efficient representation. My current work spans deepfake detection, instruction tuning, and vision-language modeling, with a particular interest in building methods that remain robust and useful across unseen domains.
 
-Just before the exchange, I have dedicated a great of my time in Professor [Stephane Deny](https://sites.google.com/view/stephanedeny/home){:target="_blank"}'s BRAIN Lab. For more than 1 year as a **Research Assistant**, I have been researching about self-supervised learning and Invariant representation. Along with that I conducted **Bachelor Thesis** in Scene Representation with Professor [Alexander Ilin](https://users.aalto.fi/~alexilin/){:target="_blank"}, and **TA**-ed in advanced courses, e.g. hosting parts of lecture with Professor [Nitin Sawhney](https://www.aalto.fi/en/people/nitin-sawhney){:target="_blank"}. 
+I earned a Bachelor honor from Aalto University 🇫🇮. I have dedicated a great of my time in Professor [Stephane Deny](https://sites.google.com/view/stephanedeny/home){:target="_blank"}'s BRAIN Lab. For more than 1 year as a **Research Assistant**, I have been researching about self-supervised learning and Invariant representation. Along with that I conducted **Bachelor Thesis** in Scene Representation with Professor [Alexander Ilin](https://users.aalto.fi/~alexilin/){:target="_blank"}, and **TA**-ed in advanced courses, e.g. hosting lectures with Professor [Nitin Sawhney](https://www.aalto.fi/en/people/nitin-sawhney){:target="_blank"}. 
+
+In the final year, I am on a exchange study to IC Department, EPFL (Switzerland) 🇨🇭. This exchange is selective, fully-funded, and involve both course and research work. There, I explored diffusion-based deepfake detection, submitting a method to the ELSA Deepfake Detection Challenge that evaluates residual inversion signals. 
+
 
 Originally I come from Hanoi, Vietnam 🇻🇳. There, I studied at [HNUE High School for Gifted Students](https://chuyensp.edu.vn/){:target="_blank"}, while developed  my passion in photograph 📸. Check [Portfolio](portfolio.html){: .btn } for my gorgeous photos 🏞️.
 
 Research Exprience
 ======
+
+
+
+Research Assistant @ Dartmouth College
+-----
+* **PI**: Professor SouYoung Jin
+
+
 
 Research Assistant @ Aalto School of Computer Science 
 ------
@@ -56,9 +67,23 @@ Teaching Exprience
 ======
 Check [Teaching](teaching.html){: .btn }
 
+* Spring 2025
+  * COSC 78/278: Deep Learning (Prof. Yujun Yan)
+  * COSC 89.35/189: Human-centered LLMs -- Lead TA (Prof. Sarah Preum)
+  * COSC 74/274: Statistical Inference and Machine Learning (Prof. Soroush Vosoughi)
+
+* Winter 2024
+  * COSC 74/274: Statistical Inference and Machine Learning (Prof. Soroush Vosoughi)
+  * COSC 70: Foundations of Applied Computer Science (Prof. Yaoqing Yang)
+  
+* Fall 2024
+  * COSC 76/276: Artificial Intelligence (Prof. Soroush Vosoughi)
+  * ENGS 108: Applied Machine Learning -- Lead TA (Prof. George Cybenko)
+
 * Spring 2023
   * CS-A1155 Databases for Data Science 
   * CS-E4800 Artificial Intelligence
+  
 * Autumn 2022
   * ELEC-A7151 Object oriented programming with C++ 
   * CS-C3240 Machine Learning D 
@@ -83,11 +108,11 @@ Many of the features of dynamic content management systems (like Wordpress) can 
 Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+2. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
+3. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+4. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+5. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+6. Check status by going to the repository settings, in the "GitHub pages" section
 
 Site-wide configuration
 ------
