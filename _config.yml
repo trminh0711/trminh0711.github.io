@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Minh Dinh Trong"
   avatar           : "profile.jpeg"
-  bio              : "BSc Data Science Student   @Aalto & EPFL"
-  location         : "Lausanne, Switzerland 🇨🇭"
+  bio              : "MS Computer Science @ Dartmouth"
+  location         : "Hanover, NH 🇺🇸"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "minh.dinhtrong@aalto.fi"
+  email            : "minh.t.dinh.gr@dartmouth.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

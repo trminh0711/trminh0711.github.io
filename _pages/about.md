@@ -12,7 +12,7 @@ Hello, my name is Minh. I’m a graduate student in Computer Science at [Dartmou
 
 I earned a Bachelor's degree with honors in Data Science from Aalto University 🇫🇮. I have dedicated a great of my time in Professor [Stephane Deny](https://sites.google.com/view/stephanedeny/home){:target="_blank"}'s BRAIN Lab. For more than 1 year as a **Research Assistant**, I have been researching about self-supervised learning and Invariant representation. Along with that I conducted **Bachelor Thesis** in Scene Representation with Professor [Alexander Ilin](https://users.aalto.fi/~alexilin/){:target="_blank"}, and **TA**-ed in advanced courses, e.g. hosting lectures with Professor [Nitin Sawhney](https://www.aalto.fi/en/people/nitin-sawhney){:target="_blank"}. 
 
-In the final year, I am on a exchange study to IC Department, EPFL (Switzerland) 🇨🇭. This exchange is selective, fully-funded, and involve both course and research work. There, I explored diffusion-based deepfake detection, submitting a method to the ELSA Deepfake Detection Challenge that evaluates residual inversion signals. 
+In the final year, I am on a exchange study to the IC Department, EPFL (Switzerland) 🇨🇭. This exchange is selective, fully-funded, and involves both course and research work. There, I explored diffusion-based deepfake detection, submitting a method to the ELSA Deepfake Detection Challenge that evaluates residual inversion signals. 
 
 
 Originally I come from Hanoi, Vietnam 🇻🇳. There, I studied at [HNUE High School for Gifted Students](https://chuyensp.edu.vn/){:target="_blank"}, while developed  my passion in photograph 📸. Check [Portfolio](portfolio.html){: .btn } for my gorgeous photos 🏞️.
