@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello, my name is Minh.
+Hello, my name is Minh. I’m a graduate student in Computer Science at [Dartmouth College](https://web.cs.dartmouth.edu/) 🇺🇸, where I focus on generalizable AI systems, multimodal learning, and data-efficient representation. My current work spans deepfake detection, instruction tuning, and vision-language modeling, with a particular interest in building methods that remain robust and useful across unseen domains.
 
-I’m a graduate student in Computer Science at Dartmouth College 🇺🇸, where I focus on generalizable AI systems, multimodal learning, and data-efficient representation. My current work spans deepfake detection, instruction tuning, and vision-language modeling, with a particular interest in building methods that remain robust and useful across unseen domains.
-
-I earned a Bachelor honor from Aalto University 🇫🇮. I have dedicated a great of my time in Professor [Stephane Deny](https://sites.google.com/view/stephanedeny/home){:target="_blank"}'s BRAIN Lab. For more than 1 year as a **Research Assistant**, I have been researching about self-supervised learning and Invariant representation. Along with that I conducted **Bachelor Thesis** in Scene Representation with Professor [Alexander Ilin](https://users.aalto.fi/~alexilin/){:target="_blank"}, and **TA**-ed in advanced courses, e.g. hosting lectures with Professor [Nitin Sawhney](https://www.aalto.fi/en/people/nitin-sawhney){:target="_blank"}. 
+I earned a Bachelor's degree with honors in Data Science from Aalto University 🇫🇮. I have dedicated a great of my time in Professor [Stephane Deny](https://sites.google.com/view/stephanedeny/home){:target="_blank"}'s BRAIN Lab. For more than 1 year as a **Research Assistant**, I have been researching about self-supervised learning and Invariant representation. Along with that I conducted **Bachelor Thesis** in Scene Representation with Professor [Alexander Ilin](https://users.aalto.fi/~alexilin/){:target="_blank"}, and **TA**-ed in advanced courses, e.g. hosting lectures with Professor [Nitin Sawhney](https://www.aalto.fi/en/people/nitin-sawhney){:target="_blank"}. 
 
 In the final year, I am on a exchange study to IC Department, EPFL (Switzerland) 🇨🇭. This exchange is selective, fully-funded, and involve both course and research work. There, I explored diffusion-based deepfake detection, submitting a method to the ELSA Deepfake Detection Challenge that evaluates residual inversion signals. 
 
@@ -68,25 +66,25 @@ Teaching Exprience
 Check [Teaching](teaching.html){: .btn }
 
 * Spring 2025
-  * COSC 78/278: Deep Learning (Prof. Yujun Yan)
-  * COSC 89.35/189: Human-centered LLMs -- Lead TA (Prof. Sarah Preum)
-  * COSC 74/274: Statistical Inference and Machine Learning (Prof. Soroush Vosoughi)
+  * COSC 78/278: Deep Learning *(Prof. Yujun Yan)*
+  * COSC 89.35/189: Human-centered LLMs -- **Lead TA** *(Prof. Sarah Preum)*
+  * COSC 74/274: Statistical Inference and Machine Learning *(Prof. Soroush Vosoughi)*
 
 * Winter 2024
-  * COSC 74/274: Statistical Inference and Machine Learning (Prof. Soroush Vosoughi)
-  * COSC 70: Foundations of Applied Computer Science (Prof. Yaoqing Yang)
+  * COSC 74/274: Statistical Inference and Machine Learning *(Prof. Soroush Vosoughi)*
+  * COSC 70: Foundations of Applied Computer Science *(Prof. Yaoqing Yang)*
   
 * Fall 2024
-  * COSC 76/276: Artificial Intelligence (Prof. Soroush Vosoughi)
-  * ENGS 108: Applied Machine Learning -- Lead TA (Prof. George Cybenko)
+  * COSC 76/276: Artificial Intelligence *(Prof. Soroush Vosoughi)*
+  * ENGS 108: Applied Machine Learning -- **Lead TA** *(Prof. George Cybenko)*
 
 * Spring 2023
-  * CS-A1155 Databases for Data Science 
-  * CS-E4800 Artificial Intelligence
+  * CS-A1155 Databases for Data Science -- **Lead TA** *(Prof. Nitin Sawhney)*
+  * CS-E4800 Artificial Intelligence *(Prof. Jussi Rintanen)*
   
 * Autumn 2022
-  * ELEC-A7151 Object oriented programming with C++ 
-  * CS-C3240 Machine Learning D 
+  * ELEC-A7151 Object oriented programming with C++ *(Prof. Yusuf Ali)*
+  * CS-C3240 Machine Learning D *(Prof. Pekka Marttinen & Prof. Stephan Sigg)*
 
 
 Outreach 
