@@ -21,6 +21,10 @@ Originally I come from Hanoi, Vietnam 🇻🇳. There, I studied at [HNUE High S
 
 Research Exprience 
 ======
+
+## Publications
+*  EMBC 2025 (Accepted) -- **Impact of Noise on Deep Learning-Based Pseudo-Online Gesture Recognition with High-Density EMG**. Mansour Taleshi, Dennis Yeung, Minh Dinh Trong, Francesco Negro, Stéphane Deny, Ivan Vujaklija.
+
 Check [Research](publications.md){: .btn }
 
 I’m broadly interested in making AI systems more efficient, generalizable, and responsible.

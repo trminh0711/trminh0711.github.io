@@ -9,7 +9,7 @@ author_profile: true
 My research focuses on learning robust, generalizable representations in machine learning systems, especially in settings with limited supervision, cross-modal inputs, or distribution shifts. I am especially interested in how structure emerges from self-supervised objectives, and how generative models can be analyzed and repurposed for safety and interpretability.
 
 ## Publications
-*  EMBC 2025 (Accepted) -- **Impact of Noise on Deep Learning-Based Pseudo-Online Gesture Recognition with High-Density EMG**. Mansour Taleshi, Dennis Yeung, Minh Dinh Trong, Francesco Negro, Stéphane Deny, Ivan Vujaklija
+*  EMBC 2025 (Accepted) -- **Impact of Noise on Deep Learning-Based Pseudo-Online Gesture Recognition with High-Density EMG**. Mansour Taleshi, Dennis Yeung, Minh Dinh Trong, Francesco Negro, Stéphane Deny, Ivan Vujaklija.
 
 
 ## Privacy preserving 
